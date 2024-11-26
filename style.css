@@ -1,0 +1,79 @@
+body{
+    font-size: 18px;
+    background:#111421ce;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    
+    background:linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    border-radius:10%;
+    box-sizing:border-box;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    margin:100px auto 0;
+    padding:40px 35px;
+}
+button{
+    hover:red;
+    cursor:pointer;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    border:none;
+}
+.search img{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    hover:#baff80;
+}
+input{
+    background:white;
+    color:black;
+    text-align:center;
+    border-radius:20px;
+    width:70%;
+    height:30px;
+    border:none;
+}
+.wea-icon{
+    border:none;
+    outline:none;
+    margin-top:20px;
+    
+}
+.details{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0;
+}
+
+.col img{
+    width:40px;
+    height:45px;
+    border:none;
+    outline:none;
+}
+.temp, .city{
+    color:white;
+    font-size:60px;
+    font-weight:500;
+    margin-top:-30px;
+}
+.col{
+    display:inline-block;
+    align-items:center;
+    text-align:block;
+    color:white;
+}
+.col .hum .speed{
+    
+    margin-top:-5px;
+}
+img{
+    mix-blend-mode:multiply{
+    display:none;
+}
